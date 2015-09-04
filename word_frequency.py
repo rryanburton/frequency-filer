@@ -33,6 +33,7 @@ word_list = re.sub(r'[0-9,.!-?]', "", orig_text).lower().split()
 
 # make word list into another list with unique words
 unique_words = []
+
 for word in word_list:
     if word not in unique_words:
         unique_words.append(word)
