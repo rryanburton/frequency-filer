@@ -1,4 +1,4 @@
-
+this program doesn't do exactly what i want it to do, only returns the list of words and their frequency
 
 a program that looks for a file called sample.txt.
 
