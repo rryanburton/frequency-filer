@@ -33,7 +33,7 @@ word_list = re.sub(r'[0-9,.!-?]', "", orig_text).lower().split()
 
 # make word list into another list with unique words
 unique_words = []
-
+ignore_words = ["the", "of", "a", "to", "i", "that", "and", "is"]
 for word in word_list:
     if word in ignore_words:
         continue
